@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Merriweather&family=Sofia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif; 
+    background-image: linear-gradient(black);
+    color: rgb(56, 56, 161);
+}
+/* header */
+header{
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+header nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 772px;
+    height: 37px;
+    top: 40px;  
+    align-items: center;
+    padding-left: 10%;
+    background-color: #F5F5F7;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #F5F5F7;
+    color: #142794;
+    font-size: 18px;
+}
+.logo {
+    text-align: right;
+    padding-left: 200px;
+    background: #F5F5F7;
+   
+}
+.logo h2 a{
+    text-decoration: none;
+    color: #37447e;
+    font-size: 26px;
+    background: #F5F5F7;
+}
+/* main */
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+h2 {
+    text-decoration: none;
+    color: rgb(27, 27, 110);
+}
+h5 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: rgb(12, 12, 121);
+  }
+  
+.intro {
+    color: rgb(44, 44, 155);
+    column-span: all;
+    font-weight: 900;
+    letter-spacing: -1px;
+    row-gap: 4em;
+  }
+main .side{  
+    margin-top: 0;
+    margin-bottom: 1em;
+    align-items: center;
+    position: absolute;
+    width: 230px;
+    height: 72px;
+    left: 535px;
+    top: 108px;
+    font-weight: bold;
+    font-size: 1.60rem;
+    line-height: 75px;
+    justify-content:flex-start;
+}
+main .passages{
+    max-width: 70ch;
+    font-size: 1.0rem;
+    line-height: 1.75;
+    margin-top: 0;
+    padding-bottom: 3em;
+    position: absolute;
+    width: 807px;
+    left: 535px;
+    top: 200px;
+    text-align: justify;
+    justify-content:flex-end;
+}
+main .about img{
+    position: absolute;
+    width: 155px;
+    height: 150px;
+    left: 243px;
+    top: 119px;
+    border-radius:50%;
+    
+
+}
+main section h4{   
+position: absolute;
+width: 238px;
+height: 61px;
+left: 201px;
+top: 279px;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+}
+main section p {
+    position: absolute;
+    width: 243px;
+    height: 160px;
+    left: 199px;
+    top: 354px;
+    
+font-style: italic;
+font-size: 1.1em;
+line-height: 20px;
+text-align: center;
+}
+main section p a{ text-decoration: none;
+color: black;}
+
